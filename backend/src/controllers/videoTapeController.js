@@ -78,7 +78,6 @@ const getVideoTapeById = async (req, res) => {
   }
 };
 
-// Create video tape (Admin only)
 const createVideoTape = async (req, res) => {
   try {
     const {
@@ -91,7 +90,6 @@ const createVideoTape = async (req, res) => {
       imageUrls,
       rating,
     } = req.body;
-    // Validate input
     if (
       !title ||
       !price ||
@@ -103,13 +101,11 @@ const createVideoTape = async (req, res) => {
       return res.status(400).json({ message: "All fields are required" });
     }
 
-    // Insert video tape
     const [result] = await db.query(
       "INSERT INTO video_tapes (title, price, description, genre_id, level, stock_quantity, rating) VALUES (?, ?, ?, ?, ?, ?, ?)",
       [title, price, description, genreId, level, stockQuantity, rating]
     );
 
-    // Insert images if provided
     if (imageUrls && imageUrls.length > 0) {
       const imageValues = imageUrls.map((url, index) => [
         result.insertId,
@@ -132,7 +128,6 @@ const createVideoTape = async (req, res) => {
   }
 };
 
-// Update video tape (Admin only)
 const updateVideoTape = async (req, res) => {
   try {
     const {
@@ -147,7 +142,6 @@ const updateVideoTape = async (req, res) => {
     } = req.body;
     const { id } = req.params;
 
-    // Update video tape
     await db.query(
       `UPDATE video_tapes 
        SET title = ?, price = ?, description = ?, 
@@ -156,14 +150,11 @@ const updateVideoTape = async (req, res) => {
       [title, price, description, genreId, level, stockQuantity, rating, id]
     );
 
-    // Update images if provided
     if (imageUrls && imageUrls.length > 0) {
-      // Delete existing images
       await db.query("DELETE FROM video_tape_images WHERE video_tape_id = ?", [
         id,
       ]);
 
-      // Insert new images
       const imageValues = imageUrls.map((url, index) => [id, url, index === 0]);
       await db.query(
         "INSERT INTO video_tape_images (video_tape_id, image_url, is_primary) VALUES ?",

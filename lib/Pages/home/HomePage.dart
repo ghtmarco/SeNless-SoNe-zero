@@ -66,7 +66,7 @@ class _HomePageState extends State<HomePage> {
 
     try {
       final url = Uri.parse(Platform.isAndroid 
-        ? "http://10.0.2.2:3000/api/videotapes"  // Android emulator
+        ? "http://10.0.2.2:3000/api/videotapes" 
         : "http://localhost:3000/api/videotapes"); 
       final response = await http.get(url);
 

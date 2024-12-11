@@ -82,9 +82,9 @@ class _SignUpPageState extends State<SignUpPage> {
 
     setState(() => _isLoading = true);
 
-    final url = Uri.parse(Platform.isAndroid 
-        ? "http://10.0.2.2:3000/api/videotapes"  // Android emulator
-        : "http://localhost:3000/api/videotapes"); 
+    final url = Uri.parse(Platform.isAndroid
+        ? "http://10.0.2.2:3000/api/auth/register"
+        : "http://localhost:3000/api/auth/register");
 
     try {
       final response = await http.post(
