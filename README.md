@@ -19,6 +19,11 @@ A new Flutter project.
 
 The SeNless SoNe zero is a Flutter application that serves as a starting point for building a video tape store management system. This project helps you get started with Flutter development.
 
+### Features
+- Feature 1
+- Feature 2
+- Feature 3
+
 ## Getting Started
 
 To get a local copy up and running, follow these simple steps.
