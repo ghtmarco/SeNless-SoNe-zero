@@ -1,7 +1,5 @@
 # Video Tape Store E-Commerce
 
-![Logo](FrontEnd/video_tape_store/Logo/Logo.png)
-
 A Flutter-based college project demonstrating basic e-commerce functionality for a fictional video tape store.
 
 ## Features
