@@ -1,0 +1,28 @@
+# Environments
+.env
+BackEnd/.env
+
+# Large Assets
+*.mov
+*.mp4
+SeNless Sone zero - Demo Video.mov
+
+# Agent
+.agent/
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.iml

@@ -1,34 +1,50 @@
-# Video Tape Store E-Commerce
+# SeNless SoNe zero
+**MOBI6026001 - LAB** | Binus University
 
-A Flutter-based college project demonstrating basic e-commerce functionality for a fictional video tape store.
+<p align="center">
+  <img src="FrontEnd/video_tape_store/Logo/Logo.png" width="200" alt="SeNless SoNe Logo">
+</p>
 
-## Features
+This is an e-commerce concept for a vintage video tape store, built as part of the Mobile Application Development course at Binus. It covers the basics of a store app: browsing movies, managing a cart, and an admin side for handling the inventory.
 
-- 🛍️ Mock Shopping Experience
-  - Add items to cart (non-functional checkout)
-  - Product search/filter
-- 🔐 Authentication
-  - Email/password login
-  - Google sign-in
-- 👨💻 Admin Panel
-  - Add/remove video tape listings
-  - Manage product details
+## Screenshots
+
+### Auth Flow
+| Login | Sign Up |
+|---|---|
+| ![Login](Screenshot/LoginPage.jpg) | ![Sign Up](Screenshot/SignUpPage.jpg) |
+
+### Store Experience
+| Home | Product Detail | Shopping Cart |
+|---|---|---|
+| ![Home](Screenshot/HomePage.jpg) | ![Detail](Screenshot/ProductDetailPage.jpg) | ![Cart](Screenshot/ShoppingCartPage.png) |
+
+### Admin Side
+| Video List | Add Video | Edit Video |
+|---|---|---|
+| ![List](Screenshot/VideoListPage.jpg) | ![Add](Screenshot/AddVideoPage.jpg) | ![Edit](Screenshot/EditVideoPage.jpg) |
+
+## Tech Stack
+- **Frontend:** Flutter
+- **Backend:** Node.js (Express)
+- **Database:** MariaDB / MySQL
+- **Auth:** Google Sign-In & Email/Password
 
 ## Installation
 
-1. Clone repository
-2. Ensure Flutter SDK is installed
-3. Run:
+### Frontend
+1. Navigate to `FrontEnd/video_tape_store`
+2. Run `flutter pub get`
+3. Run `flutter run`
 
-```bash
-flutter pub get
-flutter run
-```
+### Backend
+1. Navigate to `BackEnd`
+2. Run `npm install`
+3. Set up your `.env` file
+4. Run `npm start`
 
-## Project Scope Notice
+## Demo Video
+A full demo video is included in the project files (`SeNless Sone zero - Demo Video.mov`), but it's excluded from the repository due to its large file size.
 
-⚠️ This is an academic demonstration only - no real transactions or payment processing are implemented.
-
-## License
-
-This educational project does not currently have a formal license - all rights reserved to the original creator (you).
+---
+*Created for academic purposes at Binus University.*
