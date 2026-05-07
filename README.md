@@ -6,6 +6,15 @@
 
 This is an e-commerce concept for a vintage video tape store, built as part of the Mobile Application Development course at Binus. It covers the basics of a store app: browsing movies, managing a cart, and an admin side for handling the inventory.
 
+## Demo Video
+### 📱 App Walkthrough
+
+<div align="center">
+  <video src="https://github.com/ghtmarco/SeNless-SoNe-zero/raw/main/assets/video/demo.mp4" width="100%" controls autoplay loop muted>
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 ## Screenshots
 
 ### Auth Flow
@@ -70,15 +79,6 @@ This is an e-commerce concept for a vintage video tape store, built as part of t
 | `JWT_SECRET` | Yes | Secret key for JWT | `your_secret_key` |
 | `JWT_EXPIRES_IN` | No | JWT expiration time | `24h` |
 <!-- /AUTO-GENERATED:ENV_BACKEND -->
-
-## Demo Video
-### 📱 App Walkthrough
-
-<div align="center">
-<video autoplay muted loop>
-  <source src="\assets\video\demo.mp4" type="video/mp4">
-</video>
-</div>
 
 ---
 *Created for academic purposes at Binus University.*
