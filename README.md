@@ -72,7 +72,10 @@ This is an e-commerce concept for a vintage video tape store, built as part of t
 <!-- /AUTO-GENERATED:ENV_BACKEND -->
 
 ## Demo Video
-A full demo video is included in the project files (`SeNless Sone zero - Demo Video.mov`), but it's excluded from the repository due to its large file size.
+You can watch the full demo video online here:
+[📺 Watch Demo Video (OneDrive)](https://binusianorg-my.sharepoint.com/personal/marco_gahalta_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQDlvzYYjIP4QopDxg3mv-4RAcKvH916n6QK1lOgOyTlhhg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hYGOLA)
+
+*Note: A local copy is also available in the project files as `SeNless Sone zero - Demo Video.mov`, but it is excluded from the repository due to its large size.*
 
 ---
 *Created for academic purposes at Binus University.*
