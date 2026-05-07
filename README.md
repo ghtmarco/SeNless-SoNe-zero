@@ -73,11 +73,12 @@ This is an e-commerce concept for a vintage video tape store, built as part of t
 
 ## Demo Video
 ### 📱 App Walkthrough
-https://github.com/ghtmarco/SeNless-SoNe-zero/raw/main/assets/video/demo.mp4
 
-*Can't see the player? [Watch on OneDrive](https://binusianorg-my.sharepoint.com/personal/marco_gahalta_binus_ac_id/_layouts/15/guestaccess.aspx?share=IQDlvzYYjIP4QopDxg3mv-4RAcKvH916n6QK1lOgOyTlhhg&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hYGOLA)*
-
-*Note: A local high-quality copy is available as `SeNless Sone zero - Demo Video.mov` (excluded from repo).*
+<div align="center">
+  <video src="https://github.com/ghtmarco/SeNless-SoNe-zero/raw/main/assets/video/demo.mp4" width="100%" controls>
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ---
 *Created for academic purposes at Binus University.*
