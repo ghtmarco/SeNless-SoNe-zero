@@ -2,7 +2,7 @@
 **MOBI6026001 - LAB** | Binus University
 
 <p align="center">
-  <img src="FrontEnd/video_tape_store/Logo/Logo.png" width="200" alt="SeNless SoNe Logo">
+  <img src="Screenshot/Logo.png" width="200" alt="SeNless SoNe Logo">
 </p>
 
 This is an e-commerce concept for a vintage video tape store, built as part of the Mobile Application Development course at Binus. It covers the basics of a store app: browsing movies, managing a cart, and an admin side for handling the inventory.
