@@ -32,15 +32,44 @@ This is an e-commerce concept for a vintage video tape store, built as part of t
 ## Installation
 
 ### Frontend
+<!-- AUTO-GENERATED:SCRIPTS_FRONTEND -->
 1. Navigate to `FrontEnd`
 2. Run `flutter pub get`
 3. Run `flutter run`
 
+| Command | Description |
+|---------|-------------|
+| `flutter pub get` | Install Flutter dependencies |
+| `flutter run` | Run the app in debug mode |
+| `flutter build apk` | Build Android APK |
+<!-- /AUTO-GENERATED:SCRIPTS_FRONTEND -->
+
 ### Backend
+<!-- AUTO-GENERATED:SCRIPTS_BACKEND -->
 1. Navigate to `BackEnd`
 2. Run `npm install`
-3. Set up your `.env` file (Database dump is in `BackEnd/database/`)
-4. Run `npm start`
+3. Set up your `.env` file (see table below)
+4. Run `npm start` (Database dump is in `BackEnd/database/`)
+
+| Command | Description |
+|---------|-------------|
+| `npm install` | Install Node.js dependencies |
+| `npm start` | Start production server |
+| `npm run dev` | Start development server with Nodemon |
+<!-- /AUTO-GENERATED:SCRIPTS_BACKEND -->
+
+### Environment Variables (BackEnd)
+<!-- AUTO-GENERATED:ENV_BACKEND -->
+| Variable | Required | Description | Example |
+|----------|----------|-------------|---------|
+| `PORT` | No | Server port (default: 3000) | `3000` |
+| `DB_HOST` | Yes | Database host | `localhost` |
+| `DB_USER` | Yes | Database user | `root` |
+| `DB_PASS` | No | Database password | `password123` |
+| `DB_NAME` | Yes | Database name | `videotape_store` |
+| `JWT_SECRET` | Yes | Secret key for JWT | `your_secret_key` |
+| `JWT_EXPIRES_IN` | No | JWT expiration time | `24h` |
+<!-- /AUTO-GENERATED:ENV_BACKEND -->
 
 ## Demo Video
 A full demo video is included in the project files (`SeNless Sone zero - Demo Video.mov`), but it's excluded from the repository due to its large file size.
