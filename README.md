@@ -1,5 +1,4 @@
 # SeNless SoNe zero
-**MOBI6026001 - LAB** | Binus University
 
 <p align="center">
   <img src="Screenshot/Logo.png" width="200" alt="SeNless SoNe Logo">
