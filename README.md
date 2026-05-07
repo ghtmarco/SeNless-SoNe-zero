@@ -6,14 +6,6 @@
 
 This is an e-commerce concept for a vintage video tape store, built as part of the Mobile Application Development course at Binus. It covers the basics of a store app: browsing movies, managing a cart, and an admin side for handling the inventory.
 
-## Demo Video
-### 📱 App Walkthrough
-
-<div align="center">
-  <!-- USER: Drag and drop your demo.mp4 file here in the GitHub web editor -->
-  <a href="https://github.com/ghtmarco/SeNless-SoNe-zero/raw/main/assets/video/demo.mp4">📥 Download / View Raw Demo Video (19MB)</a>
-</div>
-
 ## Screenshots
 
 ### Auth Flow
