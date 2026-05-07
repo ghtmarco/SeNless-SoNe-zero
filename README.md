@@ -32,14 +32,14 @@ This is an e-commerce concept for a vintage video tape store, built as part of t
 ## Installation
 
 ### Frontend
-1. Navigate to `FrontEnd/video_tape_store`
+1. Navigate to `FrontEnd`
 2. Run `flutter pub get`
 3. Run `flutter run`
 
 ### Backend
 1. Navigate to `BackEnd`
 2. Run `npm install`
-3. Set up your `.env` file
+3. Set up your `.env` file (Database dump is in `BackEnd/database/`)
 4. Run `npm start`
 
 ## Demo Video
