@@ -10,7 +10,8 @@ This is an e-commerce concept for a vintage video tape store, built as part of t
 ### 📱 App Walkthrough
 
 <div align="center">
-  <video src="assets/video/demo.mp4" controls></video>
+  <!-- USER: Drag and drop your demo.mp4 file here in the GitHub web editor -->
+  <a href="https://github.com/ghtmarco/SeNless-SoNe-zero/raw/main/assets/video/demo.mp4">📥 Download / View Raw Demo Video (19MB)</a>
 </div>
 
 ## Screenshots
