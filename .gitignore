@@ -5,6 +5,7 @@ BackEnd/.env
 # Large Assets
 *.mov
 *.mp4
+!assets/video/demo.mp4
 SeNless Sone zero - Demo Video.mov
 
 # Agent
