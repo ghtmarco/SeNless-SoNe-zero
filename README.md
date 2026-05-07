@@ -76,7 +76,7 @@ This is an e-commerce concept for a vintage video tape store, built as part of t
 
 <div align="center">
 <video autoplay muted loop>
-  <source src="assets/video/demo.mp4" type="video/mp4">
+  <source src="\assets\video\demo.mp4" type="video/mp4">
 </video>
 </div>
 
